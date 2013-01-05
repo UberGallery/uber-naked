@@ -19,7 +19,7 @@
     
     <h1>UberGallery</h1>
 
-    <?php $gallery->createGallery('gallery-images'); ?>
+    <?php echo $gallery->readTemplate('templates/defaultGallery.php', $galleryArray); ?>
 
 </body>
 

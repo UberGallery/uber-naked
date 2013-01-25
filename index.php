@@ -19,7 +19,10 @@
     
     <h1>UberGallery</h1>
 
-    <?php echo $gallery->readTemplate('templates/defaultGallery.php', $galleryArray); ?>
+    <?php
+        $galleryArray['relText'] = 'colorbox';
+        echo $gallery->readTemplate('templates/defaultGallery.php', $galleryArray);
+    ?>
 
 </body>
 

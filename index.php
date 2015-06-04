@@ -5,7 +5,6 @@
     <title>UberGallery</title>
     <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/images/favicon.png" />
 
-    <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/rebase-min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/style.css" />
     <?php echo $gallery->getColorboxStyles(1); ?>
 

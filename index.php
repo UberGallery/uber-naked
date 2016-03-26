@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>UberGallery</title>
+    <title><?php echo $gallery->getSiteName(); ?></title>
     <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/images/favicon.png" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/style.css" />
@@ -16,7 +16,7 @@
 
 <body>
 
-    <h1>UberGallery</h1>
+    <h1><?php echo $gallery->getSiteName(); ?></h1>
 
     <?php
         $galleryArray['relText'] = 'colorbox';
